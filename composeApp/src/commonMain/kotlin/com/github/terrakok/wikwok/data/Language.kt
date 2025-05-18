@@ -64,5 +64,6 @@ val popularLanguages = listOf(
     Language("Marathi", "mr"),
     Language("Gujarati", "gu"),
     Language("Punjabi", "pa"),
-    Language("Nepali", "ne")
+    Language("Nepali", "ne"),
+    Language("Türkmençe", "tk"),
 )
