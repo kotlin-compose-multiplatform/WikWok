@@ -238,5 +238,43 @@ fun WikipediaScreen(
             }
         }
 
+        Column(
+            modifier = Modifier.align(Alignment.CenterEnd),
+            verticalArrangement = Arrangement.spacedBy(12.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            IconButton(
+                modifier = Modifier
+                    .background(Color.Black.copy(alpha = 0.7f), RoundedCornerShape(50))
+                    .size(36.dp),
+                onClick = {
+
+                }
+            ) {
+                Icon(
+                    modifier = Modifier.size(24.dp),
+                    imageVector = vectorResource(Res.drawable.ic_family_star),
+                    contentDescription = "App page",
+                    tint = Color.White
+                )
+            }
+
+            IconButton(
+                modifier = Modifier
+                    .background(Color.Black.copy(alpha = 0.7f), RoundedCornerShape(50))
+                    .size(36.dp),
+                onClick = {
+
+                }
+            ) {
+                Icon(
+                    modifier = Modifier.size(24.dp),
+                    imageVector = vectorResource(Res.drawable.ic_family_star),
+                    contentDescription = "App page",
+                    tint = Color.White
+                )
+            }
+        }
+
     }
 }
